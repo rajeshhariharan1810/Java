@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class W1Act1
+public class textFileReader
 {
     static void main() throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("W1Act1.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("exampleTextFile.txt"));
         String line;
         Map<String, Integer> wordCount = new HashMap<>();
 

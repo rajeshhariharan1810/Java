@@ -1,6 +1,6 @@
 
 
-public class W1Act5
+public class jsonReader
 {
     static void main() {
 
